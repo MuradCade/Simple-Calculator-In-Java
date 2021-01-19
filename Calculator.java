@@ -13,7 +13,7 @@ class Main {
  System.out.println("Enter A First Digit: ");
  num1 = scan.nextInt();
  
- //getting the Symbol Or Operator (+,-,/,*) from The User
+ //getting the Symbols Or Operators (+,-,/,*) from The User
  System.out.println("Enter The Symbol : ");
  c = scan.next();
  
@@ -21,7 +21,7 @@ class Main {
  System.out.println("Enter A Second Digit: ");
  num2 = scan.nextInt();
  
- //Checking If Symbol or Opertor The User Input If Its (+,-,/,*) And Then Calculating Two Number With Thier Symbol or Operator And Showing The Result
+ //Checking If Symbols or Opertors That The  User Input If Its (+,-,/,*) And Then Calculating Two Number With Thier Symbols or Operators And Showing The Results
  if(c.equals("+")){
         int add = num1+num2;
         System.out.println("Result Is: "+ add);
