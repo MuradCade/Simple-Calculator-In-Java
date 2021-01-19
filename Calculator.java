@@ -9,19 +9,19 @@ class Main {
 
  Scanner scan = new Scanner (System.in);
  
- //geting first number from the user
+ //getting first number from the User
  System.out.println("Enter A First Digit: ");
  num1 = scan.nextInt();
  
- //geting the Symbol Or Operator (+,-,/,*) from The User
+ //getting the Symbol Or Operator (+,-,/,*) from The User
  System.out.println("Enter The Symbol : ");
  c = scan.next();
  
- //geting the Second Number From The User
+ //getting the Second Number From The User
  System.out.println("Enter A Second Digit: ");
  num2 = scan.nextInt();
  
- //Checking If Symbol or Opertor The User Input If Its (+,-,/,*) And Then Calculating Two Number With Thier Symbol or Operator
+ //Checking If Symbol or Opertor The User Input If Its (+,-,/,*) And Then Calculating Two Number With Thier Symbol or Operator And Showing The Result
  if(c.equals("+")){
         int add = num1+num2;
         System.out.println("Result Is: "+ add);
