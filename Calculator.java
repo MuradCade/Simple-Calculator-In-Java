@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Main {  
   public static void main(String args[]) { 
   
-  //declaing variables
+  //declaring  data types and variables names
   int num1,num2;
   String c;
  
